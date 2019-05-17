@@ -1,0 +1,391 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Overseer;
+    src: url(../fonts/Overseer.otf);
+}
+@font-face{
+    font-family: FuturaPTBold;
+    src:url(../fonts/FuturaPTBold.otf);
+}
+@font-face{
+    font-family: Futura Condensed Regular.ttf;
+    src:url(../fonts/Futura Condensed Regular.ttf);
+}
+html{
+     scroll-behavior: smooth; 
+}
+body{
+    background-image:url(../img/fundosite.png);
+    background-repeat: repeat;
+}
+#logocentro{
+    height: 50%;
+    width: 40%;
+    margin-right: 30%;
+}
+#backNav{
+    background-image: url(../img/fundosite.png);
+    background-color: rgba(0,0,0,0.7);
+}
+/* Fundo das thumb */
+#tumbcor{
+    background-color: black;
+    border: 2px #000;
+    color: #ddb724;
+}
+#tumbcor1{
+    background-color: black;
+    border: 2px #000;
+    color: #ddb724;
+}
+#tumbcor2{
+    background-color: black;
+    border: 2px #000;
+    color: #ddb724;
+}
+#tumbcor3{
+    background-color: black;
+    border: 2px #000;
+    color: #ddb724;
+}
+#tumbcor4{
+    background-color: black;
+    border: 2px #000;
+    color: #ddb724;
+}
+#tumbcor5{
+    background-color: black;
+    border: 2px #000;
+    color: #ddb724;
+}
+/* Fim do fundo */
+/* Início das letras*/
+#tumbcor p{
+    color: #ffffe6;
+}
+#tumbcor1 p{
+    color: #ffffe6;
+}
+#tumbcor2 p{
+    color: #ffffe6;
+}
+#tumbcor3 p{
+    color: #ffffe6;
+}
+#tumbcor4 p{
+    color: #ffffe6;
+}
+#tumbcor5 p{
+    color: #ffffe6;
+}
+/* Fim cores */
+/* Cor nav*/
+#navcor{
+    color: #ffffe6;
+}
+#navcor2{
+    color: #ffffe6;
+}
+#navcor3{
+    color: #ffffe6;
+}
+#navcor4{
+    color: #ffffe6;
+}
+#navcor1{
+    color: #ffffe6;
+}
+/*Fim cor nav*/
+#bloco1{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    padding: 0;
+}
+#bloco2{
+    height: auto;
+    width: 95%;
+    background-color: transparent;
+}
+#conteudo{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-align: justify;
+}
+#estilo_hist{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2%;
+    border-color: #000;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+#hist{
+    font-family: FuturaPTBold; 
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: #333;
+}
+/* Início da 3 div*/
+#bloco3{
+    height: auto;
+    width: 92%;
+    background-color: transparent;
+}
+#companions{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 2%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2%;
+    border-color: #000;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+#comp{
+    font-family: FuturaPTBold; 
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: #333
+}
+/* Fim da 3 div*/
+/* Início da 4 div*/
+#bloco4{
+    height: auto;
+    width: 100%;
+    background-image: url(../img/fundosite.png);
+    background-attachment: fixed;
+    background-color: #000;
+    color: #fff;
+}
+#conteudoFac{
+    width: 100%;
+    display: flex;
+}
+#estilo_faccao{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 2%;
+    border-color: #000;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*Facção 1*/
+#fac{
+    font-family: FuturaPTBold; 
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+#facc1{
+    height: auto;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: #fff;
+    border-color: #fff;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+#fac1{
+    height: auto;
+    width: 100%;
+}
+#facc1 p{
+    padding: 1%;
+}
+/* Fim da facção 1*/
+/* Facção 2*/
+#facc2{
+    height: auto;
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+    font-family: sans-serif;
+    color: #fff;
+    border-color: #fff;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+#fac2{
+    height: auto;
+    width: 50%;
+}
+#facc2 p{padding: 3%}
+/*Fim da facção 2*/
+/*Facção 3*/
+#facc3{
+    width: 25%;
+    margin-left: 4%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-color: #fff;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+#fac3{
+    height: auto;
+    width: 100%;
+}
+#facc3 p{
+    padding: 5%;
+}
+/* Fim da facção 3*/
+/* Fim da 4 div*/
+/* Início 5 div*/
+#bloco5{
+    height: 650px;
+    width: 100%;
+    border-color: #000;
+}
+#estilo_spe{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 2%;
+    border-color: #000;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#spec{
+    font-family: FuturaPTBold; 
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+
+#conteudoSpe{
+    height: 84%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spe{
+    font-family: FuturaPTBold; 
+    letter-spacing: 3px;
+    background: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-stretch: 100%;
+    line-height: 23px;
+    border: 0;
+    box-sizing: content-box;
+    display: inline-block;
+    list-style: none;
+    margin: .1rem 0;
+    padding: .3rem 2rem .3rem 1rem;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    transition: width,.5s;
+    min-width: 70%;
+}
+
+/* Início botões*/
+.spe:hover{
+    color: white;   
+    background-image: url(../img/fundosite.png);
+    background-color: #000;
+}
+/*Fim hover*/
+/* Strength*/
+
+/* fStrength*/
+
+/* Fim botões*/
+#esquerda{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fotoSpe{
+    margin-bottom: 5%;
+    height: 35%;
+    width: 75%;
+}
+
+#botSpe{
+    height: 95%;
+    width: 95%;
+    background-image: url(../img/fundosite.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#direita{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 88%;
+    width: 50%;
+    background-image: url(../img/fundosite.png);
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contDireita{
+    height: 95%;
+    width: 95%;
+    background-color: transparent;
+}
+/* Teste JS */
+#str{
+    color: white;
+}
+
+#per{
+    color: white;
+}
+/* Fim teste */
+/* Fim 5 div*/
+.container{
+    margin-top: 5px;
+}
